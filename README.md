@@ -84,6 +84,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 git clone <your-repo-url>
 cd proj
 uv sync  # Install dependencies from lockfile
+uv add "trl>=0.20.0" "peft>=0.17.0" "transformers>=4.55.0" trackio deepspeed
 ```
 
 ### 3. RunPod Environment Setup
